@@ -236,7 +236,43 @@ header {
 
 /* Support section */
 
-.support-section {}
+.support-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.support-section h2 {
+    margin-bottom: 1rem;
+}
+
+.support-section p {
+    color: #73A6B1;
+    margin-bottom: 2rem;
+}
+
+.counter-container p {
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.counter {
+	font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.counter-divider {
+    width: 2px;
+    height: 3.4rem;
+    background-color: #9AD2DE;
+    display: inline-block;
+}
 
 /* Contacts section */
 
