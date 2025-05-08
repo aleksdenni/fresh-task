@@ -13,23 +13,29 @@
 
     <!-- 1. Header: логотип, навігація -->
     <header>
-        <img src="./assets/images/Logo.png" class="logo" />
+        <img src="./assets/images/icons/Logo.png" class="logo" />
         <nav>
             <ul>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">З чим ми працюємо</a></li>
-                <li><a href="#">Підтримати фонд</a></li>
-              </ul>
+                <li><a href="#contacts">Контакти</a></li>
+                <li><a href="#main">Головна</a></li>
+                <li><a href="#what-we-do">З чим ми працюємо</a></li>
+                <li><a href="#support">Підтримати фонд</a></li>
+            </ul>
         </nav>
     </header>
 
     <!-- 2. Main: банер з фото, заголовком та кнопкою -->
     <section id="main">
+        <h1>Фонд підтримки постраждалих від війни</h1>
+        <p>Ми хочемо допомогти кожному, хто постраждав під час війни</p>
+        <a href="#" class="blue-btn white-btn">Підтримати фонд</a>
     </section>
 
     <!-- 3. Description: Про фонд -->
     <section>
+        <h2>Ми – фонд підтримки постраждалих від війни</h2>
+        <p>Наша мета – психологічна та гуманітарна допомога українцям</p>
+        <p>Кожен, хто звернеться, отримає допомогу, яка у наших силах</p>
     </section>
 
     <!-- 4. Fund activity: Напрямки діяльності -->
@@ -37,22 +43,61 @@
 
         <!-- article для кожного напрямку -->
         <article>
+            <h3>Реабілітаційний центр</h3>
+            <p>Ми допомагаємо людям, які постраждали знайти правильне лікування. У нашому фонді є чотири напрями:
+                фізичної та реабілітаційної медицини, терапевтичне, неврологічне та хірургічне. Ми маємо
+                заклади-партнери, де швидко та якісно можуть надати допомогу.</p>
+            <img src="./assets/images/person with a prosthesis.png" alt="чоловік з протезом ноги ">
         </article>
 
         <article>
+            <h3>Робота з дітьми</h3>
+            <p>Діти – найвразливіша частина суспільства, і їм особливо потрібна підтримка дорослих. Тому наш фонд збирає
+                речі для дітей, проводить літні й зимові табори, майстер-класи та за потреби – дитячих прсихотерапевтів.
+            </p>
+            <img src="./assets/images/children cooking.png" alt="діти готують щось разом">
         </article>
     </section>
 
     <!-- 5. Mission: Місія фонду -->
     <section>
+        <p>Наша місія – щоб кожен українець мав можливість отримати допомогу й не залишився наодинці зі своїми
+            проблемами</p>
+        <img src="./assets/images/wawe line.png">
+        <img src="./assets/images/smiley-little-kids-holding-each-other.png"
+            alt="усміхнені діти обіймаються і дивляться на нас">
     </section>
 
     <!-- 6. Support fund: лічильник і CTA -->
     <section id="support">
+        <h2>Підтримайте нашу роботу!</h2>
+        <p>Усі ваші донати йдуть саме на роботу фонду, заробітні плати ми виплачуємо з коштів грантодавців</p>
+        <div class="counter-container">
+            <p>Наша мета 10 000 000 гривень! </p>
+            <div class="counter">
+                00<span class="counter-divider"></span>230<span class="counter-divider"></span>025
+            </div>
+        </div>
     </section>
 
     <!-- 7. Contacts: Контакти, підписка -->
     <footer id="contacts">
+        <h2>Контакти</h2>
+        <p>Якщо у вас виникають питання – телефонуйте за номером</p>
+        <p>0-987-654-321</p>
+        <p>Або пишіть нам у чат-бот</p>
+
+        <div class="newsletter">
+            <img src="./assets/images/envelope.png" alt="зображення відкритого конверта в якому знаходиться лист">
+            <p>
+                Щоб дізнаватися усі новини фестивалю, підпишися на нашу розсилку
+            </p>
+            <form class="newsletter-form">
+                <input type="text" placeholder="Ім'я">
+                <input type="email" placeholder="Email">
+                <button type="submit" class="blue-btn">підписатися</button>
+            </form>
+        </div>
     </footer>
 
 </body>
