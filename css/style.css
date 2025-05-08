@@ -3,8 +3,8 @@
     src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 
- /* Base styles */
- * {
+/* Base styles */
+* {
     box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     min-height: 100vh;
 }
 
@@ -21,3 +21,72 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.blue-btn {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 2em;
+    font-size: 1em;
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.2em 3.94em;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.logo {
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: #FFFFFF;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-links li a:hover {
+    color: #77c3d1;
+}
+
+/* Main section */
+
+.main-section {
+
+}
+
+/* Description section */
+
+.purpose-section {}
+
+/* Fund activity section */
+
+.service-section {}
+
+/* Mission section */
+
+.mission-section {}
+
+/* Support section */
+
+.support-section {}
+
+/* Contacts section */
+
+.contacts-section {}
