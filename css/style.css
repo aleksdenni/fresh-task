@@ -10,7 +10,7 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 body {
@@ -24,12 +24,28 @@ img {
     height: auto;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 3.15em;
+    font-weight: 800;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
 .blue-btn {
     text-transform: uppercase;
     background-color: #7AE5FD;
     padding: 1.15em 1.94em;
     border-radius: 2em;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #000000;
     text-decoration: none;
 }
@@ -55,6 +71,7 @@ header {
 }
 
 .nav-links {
+    font-size: 0.9em;
     display: flex;
     align-items: center;
     gap: 3.1em;
@@ -100,8 +117,6 @@ header {
 
 .main-content h1 {
     color: #FFFFFF;
-    font-size: 3.94rem;
-    font-weight: 800;
     margin-bottom: 1rem;
 }
 
@@ -116,11 +131,59 @@ header {
 
 /* Description section */
 
-.purpose-section {}
+.purpose-section {
+    padding: 8em 3.55rem;
+    text-align: center;
+}
+
+.purpose-section h2 {
+    margin-bottom: 1rem;
+}
+
+.purpose-section p {
+    font-size: 1.35rem;
+}
+
+.purpose-section .subtext {
+    color: #73A6B1;
+}
 
 /* Fund activity section */
 
-.service-section {}
+.service-section {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    gap: 2.25rem;
+}
+
+.service-content {
+    background-color: #F1FDFF;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 3.1rem ;
+    gap: 2.25em;
+    margin: 0em 3.55em;
+    border-radius: 0.5em;
+}
+
+.service-content .image {
+    width: 100%;
+    max-width: 29.25rem;
+    height: 21.2rem;
+    border-radius: 0.7rem;
+    object-fit: cover;
+}
+
+.service-content h3 {
+    font-size: 2.3em;
+    margin-bottom: 1rem;
+}
 
 /* Mission section */
 
