@@ -43,11 +43,12 @@ h3 {
 .blue-btn {
     text-transform: uppercase;
     background-color: #7AE5FD;
-    padding: 1.15em 1.94em;
+    padding: 1.05em 1.75em;
     border-radius: 2em;
     font-size: 0.9em;
     color: #000000;
     text-decoration: none;
+    border: none;
 }
 
 /* Header styles */
@@ -207,7 +208,7 @@ header {
     text-align: left;
     position: relative;
     width: 50%;
-    z-index: 1;
+    z-index: 3;
 }
 
 .mission-images {
@@ -259,7 +260,7 @@ header {
 }
 
 .counter {
-	font-size: 3rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,4 +277,65 @@ header {
 
 /* Contacts section */
 
-.contacts-section {}
+.contacts-section {
+    padding: 3.55rem;
+    background-color: #F9FADF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5em;
+}
+
+.contacts-section .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-section .newsletter {
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.contacts-section .subscribe-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-section .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.contacts-section .form-input {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FADF;
+    color: #000000;
+    padding: 1.05em 1.75em;
+    border-radius: 2em;
+    font-size: 0.9em;
+    border: none;
+}
+
+/* Responsive styles */
+@media (max-width: 950px) {
+    .main-content {
+        min-height: 70vh;
+    }
+
+    .service-content {
+        flex-wrap: wrap;
+    }
+
+    .purpose-section {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px) {
+    .white-btn {
+        font-size: 0.5em;
+    }
+}

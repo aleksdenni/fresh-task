@@ -87,21 +87,25 @@
 
     <!-- 7. Contacts: Контакти, підписка -->
     <footer id="contacts" class="contacts-section">
-        <h2>Контакти</h2>
-        <p>Якщо у вас виникають питання – телефонуйте за номером</p>
-        <p>0-987-654-321</p>
-        <p>Або пишіть нам у чат-бот</p>
+        <div class="contacts">
+            <h2>Контакти</h2>
+            <div>
+                <p>Якщо у вас виникають питання – телефонуйте за номером</p>
+                <p>0-987-654-321</p>
+                <p>Або пишіть нам у чат-бот</p>
+            </div>
+        </div>
 
         <div class="newsletter">
             <img src="./assets/images/envelope.png" alt="зображення відкритого конверта в якому знаходиться лист">
-            <p>
-                Щоб дізнаватися усі новини фестивалю, підпишися на нашу розсилку
-            </p>
-            <form class="newsletter-form">
-                <input type="text" placeholder="Ім'я">
-                <input type="email" placeholder="Email">
-                <button type="submit" class="blue-btn">підписатися</button>
-            </form>
+            <div class="subscribe-block">
+                <p>Щоб дізнаватися усі новини фестивалю, підпишися на нашу розсилку</p>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="Ім'я" class="form-input">
+                    <input type="email" placeholder="Email" class="form-input">
+                    <button type="submit" class="blue-btn">підписатися</button>
+                </form>
+            </div>
         </div>
     </footer>
 
