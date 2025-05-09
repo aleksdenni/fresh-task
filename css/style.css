@@ -324,9 +324,15 @@ header {
     padding: 3em;
 }
 
+.contacts-section .newsletter .envelope {
+    max-width: 27.1rem;
+    object-fit: cover;
+}
+
 .contacts-section .subscribe-block {
     display: flex;
     flex-direction: column;
+    max-width: 27.05rem;
     gap: 1.5em;
 }
 
@@ -344,6 +350,7 @@ header {
     padding: 1.05em 1.75em;
     border-radius: 2em;
     font-size: 0.9em;
+    /* max-width: 20rem; */
     border: none;
 }
 
