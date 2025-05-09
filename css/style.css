@@ -11,6 +11,7 @@
 
 html {
     font-size: 20px;
+
 }
 
 body {
@@ -57,12 +58,12 @@ header {
     display: flex;
     align-items: center;
     padding: 2.2em 3.94em;
-    width: 100%;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 3;
+    right: 0;
+    z-index: 5;
 }
 
 .logo {
@@ -199,11 +200,9 @@ header {
     justify-content: flex-start;
     padding: 4.5rem 3.1rem;
     margin: 11.05em 3.55em;
-    border-radius: 0.5em;
 }
 
 .mission-section .text {
-    background-color: #F1FDFF;
     font-size: 1.36em;
     text-align: left;
     position: relative;
@@ -215,7 +214,7 @@ header {
     position: absolute;
     bottom: 0;
     left: 48%;
-    width: 100%;
+    width: 50%;
     z-index: 2;
     pointer-events: none;
 }
@@ -341,4 +340,5 @@ header {
     .white-btn {
         font-size: 0.5em;
     }
+
 }
