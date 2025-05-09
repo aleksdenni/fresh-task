@@ -289,17 +289,20 @@ header {
 .contacts-section .contacts {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contacts-section .newsletter {
     background-color: #FFFFFF;
     display: flex;
+    justify-content: space-around;
+    padding: 3em;
 }
 
 .contacts-section .subscribe-block {
     display: flex;
     flex-direction: column;
+    gap: 1.5em;
 }
 
 .contacts-section .newsletter-form {
